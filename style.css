@@ -1,0 +1,156 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow: hidden;
+ }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+
+.box-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+ }
+
+ .box {
+    width: 450px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    position: relative;
+}
+
+
+.box h1{
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    position: relative;
+}
+
+
+.box li a {
+    color: #7a16ff;
+    text-decoration: none;
+    font-size: 45px;
+    text-shadow: 0 0 100px #007eff, 0 0 100px #007eff, 0 0 200px #007eff;
+    transition: all 250ms ease-in-out 0s
+}
+
+
+.box li a:hover {
+    color:#060efb;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all 250ms ease-in-out 0s
+    -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.box p {
+   font-size: 25px;
+   letter-spacing: 2px;
+}
+
+.box li img {
+   color: #060efb;
+   filter: sepia(100%);
+   height: 43px;
+   width: 43px;
+   position: relative;
+}
+
+.box li img:hover {
+    color:#060efb;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all 250ms ease-in-out 0s
+    -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+section{
+    height:115vh;
+    width:115vW;
+    background: url(5fb38897619c95.23168667.jpg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    transition: all 300ms ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.discord{
+height: 40px;
+width: 50px;
+display: block;
+display: inline-block;
+margin: 6px;
+background-image: center;
+position: relative;
+border-image: 57px #000000;
+text-shadow: 0 0 100px #007eff, 0 0 100px #007eff, 0 0 200px #007eff;
+animation-name: circle;
+animation-duration: 3s;
+animation-timing-function: cubic-bezier(0.03, 0.56, 1, 1);
+}
+
+@keyframes circle{
+
+0%{
+right: 0%;
+}
+100%{
+right: 15%;
+}
+}
+
+.box li a{
+width: 100px;
+height: 100px;
+border-radius: 100%;
+position: relative;
+animation-name: circle;
+animation-duration: 1s;
+animation-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+@keyframes circle{
+
+0%{
+left: 1700%;
+}
+50%{
+right: 15%;
+}
+100%{
+   left: 0%;
+}
+
+}
